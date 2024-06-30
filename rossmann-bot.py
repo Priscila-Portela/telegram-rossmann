@@ -4,6 +4,19 @@ import json
 from flask import Flask, request, Response
 import os
 
+# # Info about the bot
+# https://api.telegram.org/bot7424903285:AAFb3kx87w9zPxW5z8hcLPf8RZoIYS-QI74/getMe
+
+# # Get Updates
+# https://api.telegram.org/bot7424903285:AAFb3kx87w9zPxW5z8hcLPf8RZoIYS-QI74/getUpdates
+
+# # Webhook
+# https://api.telegram.org/bot7424903285:AAFb3kx87w9zPxW5z8hcLPf8RZoIYS-QI74/setWebhook?url=https://983aca7044941a.lhr.life
+
+# # Send message
+# https://api.telegram.org/bot7424903285:AAFb3kx87w9zPxW5z8hcLPf8RZoIYS-QI74/sendMessage?chat_id=7271684129&text=Hello
+
+
 # constants
 TOKEN = '7424903285:AAFb3kx87w9zPxW5z8hcLPf8RZoIYS-QI74'
 
@@ -16,17 +29,6 @@ def send_message(chat_id, text):
 
         return None
 
-# # Info about the bot
-# https://api.telegram.org/bot7424903285:AAFb3kx87w9zPxW5z8hcLPf8RZoIYS-QI74/getMe
-
-# # Get Updates
-# https://api.telegram.org/bot7424903285:AAFb3kx87w9zPxW5z8hcLPf8RZoIYS-QI74/getUpdates
-
-# # Webhook
-# https://api.telegram.org/bot7424903285:AAFb3kx87w9zPxW5z8hcLPf8RZoIYS-QI74/setWebhook?url=https://983aca7044941a.lhr.life
-
-# # Send message
-# https://api.telegram.org/bot7424903285:AAFb3kx87w9zPxW5z8hcLPf8RZoIYS-QI74/sendMessage?chat_id=7271684129&text=Hello
 
 
 def load_dataset(store_id):
