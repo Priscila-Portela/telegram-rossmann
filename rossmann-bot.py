@@ -10,6 +10,9 @@ import os
 # # Get Updates
 # https://api.telegram.org/bot7424903285:AAFb3kx87w9zPxW5z8hcLPf8RZoIYS-QI74/getUpdates
 
+# #WebHook Render
+# https://api.telegram.org/bot7424903285:AAFb3kx87w9zPxW5z8hcLPf8RZoIYS-QI74/setWebhook?url=https://telegram-rossmann-3nap.onrender.com
+
 # # Webhook
 # https://api.telegram.org/bot7424903285:AAFb3kx87w9zPxW5z8hcLPf8RZoIYS-QI74/setWebhook?url=https://983aca7044941a.lhr.life
 
@@ -33,8 +36,8 @@ def send_message(chat_id, text):
 
 def load_dataset(store_id):
 # loading test dataset
-        df10 = pd.read_csv( '/test.csv' )
-        df_store_raw = pd.read_csv( '/store.csv' )
+        df10 = pd.read_csv( 'test.csv' )
+        df_store_raw = pd.read_csv( 'store.csv' )
 
         # merge test dataset + store
         df_test = pd.merge( df10, df_store_raw, how='left', on='Store' )
