@@ -2,12 +2,12 @@
 
 ![rossmann](img/rossmann.png)
 
-# DESCRIPTION
+# 1. DESCRIPTION
 This an end-to-end data science project to predict daily sales for Rossmann stores across multiple locations. The primary focus is on developing a robust machine learning model to accurately forecast sales and assist the management in making data-driven decisions.
-# TECHNOLOGIES AND TOOLS
+# 2. TECHNOLOGIES AND TOOLS
 The technologies and tools used were: Python (Pandas, Nump, Seaborn, MatPlotLib, Scikit-learn and Flask), Jupyter Notebook, Git, GitHub, Machine Learning Regression Algorithms, PyEnv, Linux Terminal, Render.com, Telegram, Visual Studio Code.
 
-# BUSINESS PROBLEM AND PROJECT OBJECTIVE 
+# 3. BUSINESS PROBLEM AND PROJECT OBJECTIVE 
 * Rossmann operates over 3,000 drug stores across seven European countries. Store managers are tasked with predicting the daily sales for the upcoming weeks.
 
 * The goal of this project is to create a model that can predict daily sales for Rossmann stores and help in inventory management, staffing, and marketing strategies.
@@ -32,7 +32,7 @@ The technologies and tools used were: Python (Pandas, Nump, Seaborn, MatPlotLib,
 17. Translate and interpret the error creating best and worst case scenarios of predictions based on the error (MAE)
 18. Deploy the model to production
 
-# Main business insights
+# 4. Main business insights
 
 * Stores with larger assortment tend to have higher average daily sales.
   
@@ -57,23 +57,23 @@ The technologies and tools used were: Python (Pandas, Nump, Seaborn, MatPlotLib,
 
 * December is clearly a key month for sales, and additional marketing and inventory efforts may be warranted to maximize profits in this month.
 
-# Modeling
+# 5. Modeling
 * Preprocessing: The preprocessing steps for this project involved encoding categorical variables to prepare the data for modeling.
 * Feature Selection: We utilized the Boruta algorithm for initial feature selection. Following this, features were manually selected to ensure optimal model performance.
 * Model Selection: Various regression models were trained and evaluated. Although XGBoost did not deliver the best performance compared to Random Forest Regressor, for exemple, it was chosen due to its lightweight nature. This characteristic facilitated easier deployment and integration into the project.
   
 ![rossmann](img/model_performance.png)
 
-# Business Performance and Financial Reports
+# 6. Business Performance and Financial Reports
 * Sales Prediction Scenarios: Sales were predicted for both the best-case and worst-case scenarios as anticipated by the algorithm.
   
 * Prediction Accuracy: The algorithm effectively identified and predicted the major sales peaks and troughs with high clarity.
   
-![rossmann](img/graph4.jpg)
+![rossmann](img/graph4.png)
 
 * Investment Planning: Daily sales forecasts for each Rossmann store enable more secure investment planning. These results are accessible via the Telegram messaging app for convenience.
   
-# Web Application
+# 7. Web Application
 ### Overview
 
 After developing the model, a Flask API was created and integrated into a Telegram bot. Users can interact with the bot to retrieve sales forecasts by sending the store number (ID) via chat.
@@ -92,13 +92,13 @@ Setup Instructions:
 ## Example Output:
 ![rossmann](img/app_bot.jpg)
 
-## Note:
+### Note:
 * After several hours of inactivity, the bot may enter a rest mode. In this case, the response to the first message upon reactivation might take up to 2 minutes. When active, the bot returns sales forecasts immediately.
   
-# Additional Information
+# 8. Additional Information
 
 ### Data Analysis and Model Performance Metrics 
-For detailed performance metrics, model evaluation results, a complete exploratory data analysis and complete code refer to the notebook (End-to-End_Sales_Forecasting.ipynb) in this folder.
+For detailed performance metrics, model evaluation results, a complete exploratory data analysis and complete code refer to the notebook (End-to-End_Sales_Forecasting.ipynb) in this repository.
 
 ### Data Sources
 The data used in this project is sourced from kaggle [https://www.kaggle.com/c/rossmann-store-sales/data]. Ensure you have access to this data if you wish to reproduce the results.
