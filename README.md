@@ -36,18 +36,18 @@ The technologies and tools used were: Python (Pandas, Nump, Seaborn, MatPlotLib,
 
 
 * Stores with larger assortment tend to have higher average daily sales.
-(img/graph1.png)
-(img/graph1.1.png)
-(img/graph1.2.png)
-(img/graph1.3.png)
+![rossmann](img/graph1.png)
+![rossmann](img/graph1.1.png)
+![rossmann](img/graph1.2.png)
+![rossmann](img/graph1.3.png)
 
 * Stores with the "extra" assortment have higher average daily sales. However, due to the smaller number of stores in this segment, the total contribution to sales is minimal. On the other hand, "basic" and "extended" stores dominate in terms of number and total sales volume, being the main contributors to the company's overall revenue.
 
-(img/graph2.png)
+![rossmann](img/graph2.png)
 
 * The average daily sales on holidays, as expected, are higher than on normal days.
 
-(img/graph3.png)
+![rossmann](img/graph3.png)
 
 * In all years (2013, 2014 and 2015), there is a significant spike in sales in December. This increase is likely driven by holiday shopping, suggesting that December is the most profitable month.
 
@@ -62,7 +62,7 @@ The technologies and tools used were: Python (Pandas, Nump, Seaborn, MatPlotLib,
 * Preprocessing: The preprocessing steps for this project involved encoding categorical variables to prepare the data for modeling.
 * Feature Selection: We utilized the Boruta algorithm for initial feature selection. Following this, features were manually selected to ensure optimal model performance.
 * Model Selection: Various regression models were trained and evaluated. Although XGBoost did not deliver the best performance compared to Random Forest Regressor, for exemple, it was chosen due to its lightweight nature. This characteristic facilitated easier deployment and integration into the project.
-(img/model_performance.png)
+![rossmann](img/model_performance.png)
 
 # Business Performance and Financial Reports
 * Sales Prediction Scenarios: Sales were predicted for both the best-case and worst-case scenarios as anticipated by the algorithm.
@@ -82,6 +82,7 @@ Setup Instructions:
 Connect with the bot using the following link: Rossmann Forecasting Bot.
 Send the store number (ID) in the chat to obtain the sales prediction for the next six weeks.
 * Example Output:
+![rossmann](img/app_bot.jpg)
 
 ## Note:
 * After several hours of inactivity, the bot may enter a rest mode. In this case, the response to the first message upon reactivation might take up to 2 minutes. When active, the bot returns sales forecasts immediately.
