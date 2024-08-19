@@ -1,6 +1,6 @@
 # SALES PREDICTION
 
-!(img/rossmann.png)
+![rossmann](img/rossmann.png)
 
 # DESCRIPTION
 This an end-to-end data science project to predict daily sales for Rossmann stores across multiple locations. The primary focus is on developing a robust machine learning model to accurately forecast sales and assist the management in making data-driven decisions.
