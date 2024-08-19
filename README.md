@@ -63,6 +63,7 @@ The technologies and tools used were: Python (Pandas, Nump, Seaborn, MatPlotLib,
 * Model Selection: Various regression models were trained and evaluated. Although XGBoost did not deliver the best performance compared to Random Forest Regressor, for exemple, it was chosen due to its lightweight nature. This characteristic facilitated easier deployment and integration into the project.
   
 ![rossmann](img/model_performance.png)
+![rossmann](img/model_performance_mape.png)
 
 # 6. Business Performance and Financial Reports
 * Sales Prediction Scenarios: Sales were predicted for both the best-case and worst-case scenarios as anticipated by the algorithm.
@@ -89,7 +90,7 @@ Setup Instructions:
 1. Connect with the bot using the following link: Rossmann Forecasting Bot.
 2. Send the store number (ID) in the chat to obtain the sales prediction for the next six weeks.
 
-## Example Output:
+### Example Output:
 ![rossmann](img/app_bot.jpg)
 
 ### Note:
@@ -101,5 +102,5 @@ Setup Instructions:
 For detailed performance metrics, model evaluation results, a complete exploratory data analysis and complete code refer to the notebook (End-to-End_Sales_Forecasting.ipynb) in this repository.
 
 ### Data Sources
-The data used in this project is sourced from kaggle [https://www.kaggle.com/c/rossmann-store-sales/data]. Ensure you have access to this data if you wish to reproduce the results.
+The data used in this project is sourced from [kaggle](https://www.kaggle.com/c/rossmann-store-sales/data). Ensure you have access to this data if you wish to reproduce the results.
 
