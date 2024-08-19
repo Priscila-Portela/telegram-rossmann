@@ -34,8 +34,8 @@ The technologies and tools used were: Python (Pandas, Nump, Seaborn, MatPlotLib,
 
 # Main business insights
 
-
 * Stores with larger assortment tend to have higher average daily sales.
+  
 ![rossmann](img/graph1.png)
 ![rossmann](img/graph1.1.png)
 ![rossmann](img/graph1.2.png)
@@ -57,38 +57,49 @@ The technologies and tools used were: Python (Pandas, Nump, Seaborn, MatPlotLib,
 
 * December is clearly a key month for sales, and additional marketing and inventory efforts may be warranted to maximize profits in this month.
 
-
 # Modeling
 * Preprocessing: The preprocessing steps for this project involved encoding categorical variables to prepare the data for modeling.
 * Feature Selection: We utilized the Boruta algorithm for initial feature selection. Following this, features were manually selected to ensure optimal model performance.
 * Model Selection: Various regression models were trained and evaluated. Although XGBoost did not deliver the best performance compared to Random Forest Regressor, for exemple, it was chosen due to its lightweight nature. This characteristic facilitated easier deployment and integration into the project.
+  
 ![rossmann](img/model_performance.png)
 
 # Business Performance and Financial Reports
 * Sales Prediction Scenarios: Sales were predicted for both the best-case and worst-case scenarios as anticipated by the algorithm.
-*Prediction Accuracy: The algorithm effectively identified and predicted the major sales peaks and troughs with high clarity.
+  
+* Prediction Accuracy: The algorithm effectively identified and predicted the major sales peaks and troughs with high clarity.
+  
+![rossmann](img/graph4.jpg)
+
 * Investment Planning: Daily sales forecasts for each Rossmann store enable more secure investment planning. These results are accessible via the Telegram messaging app for convenience.
   
 # Web Application
-## Overview
+### Overview
+
 After developing the model, a Flask API was created and integrated into a Telegram bot. Users can interact with the bot to retrieve sales forecasts by sending the store number (ID) via chat.
+
 ## Telegram Bot Usage
 
 ### Run This Project Locally
 Requirements:
-A mobile device with iOS or Android updated to the latest version.
-The Telegram app, available on the App Store or Google Play.
+* A mobile device with iOS or Android updated to the latest version.
+* The Telegram app, available on the App Store or Google Play.
+  
 Setup Instructions:
-Connect with the bot using the following link: Rossmann Forecasting Bot.
-Send the store number (ID) in the chat to obtain the sales prediction for the next six weeks.
-* Example Output:
+1. Connect with the bot using the following link: Rossmann Forecasting Bot.
+2. Send the store number (ID) in the chat to obtain the sales prediction for the next six weeks.
+
+## Example Output:
 ![rossmann](img/app_bot.jpg)
 
 ## Note:
 * After several hours of inactivity, the bot may enter a rest mode. In this case, the response to the first message upon reactivation might take up to 2 minutes. When active, the bot returns sales forecasts immediately.
+  
 # Additional Information
-## Data Analysis and Model Performance Metrics 
-For detailed performance metrics, model evaluation results, a complete exploratory data analysis and complete code refer to the notebook (End-to-End_Sales_Forecasting.ipynb) in this folder .
-## Data Sources
+
+### Data Analysis and Model Performance Metrics 
+For detailed performance metrics, model evaluation results, a complete exploratory data analysis and complete code refer to the notebook (End-to-End_Sales_Forecasting.ipynb) in this folder.
+
+### Data Sources
 The data used in this project is sourced from kaggle [https://www.kaggle.com/c/rossmann-store-sales/data]. Ensure you have access to this data if you wish to reproduce the results.
 
