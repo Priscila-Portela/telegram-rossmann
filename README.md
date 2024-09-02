@@ -5,7 +5,7 @@
 # 1. DESCRIPTION
 This an end-to-end data science project to predict daily sales for Rossmann stores across multiple locations. The primary focus is on developing a robust machine learning model to accurately forecast sales and assist the management in making data-driven decisions.
 # 2. TECHNOLOGIES AND TOOLS
-The technologies and tools used were: Python (Pandas, Nump, Seaborn, MatPlotLib, Scikit-learn and Flask), Jupyter Notebook, Git, GitHub, Machine Learning Regression Algorithms, PyEnv, Linux Terminal, Render.com, Telegram, Visual Studio Code.
+The technologies and tools used were: Python (Pandas, Numpy, Seaborn, MatPlotLib, Scikit-learn and Flask), Jupyter Notebook, Git, GitHub, Machine Learning Regression Algorithms, PyEnv, Linux Terminal, Render.com, Telegram, Visual Studio Code.
 
 # 3. BUSINESS PROBLEM AND PROJECT OBJECTIVE 
 * Rossmann operates over 3,000 drug stores across seven European countries. Store managers are tasked with predicting the daily sales for the upcoming weeks.
