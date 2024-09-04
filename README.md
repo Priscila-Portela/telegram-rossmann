@@ -87,7 +87,7 @@ Requirements:
 * The Telegram app, available on the App Store or Google Play.
   
 Setup Instructions:
-1. Connect with the bot using the following link: [Rossmann Forecasting Bot](t.me/rossmann_2024_bot).
+1. Connect with the bot using the following link: [Rossmann Forecasting Bot](https://t.me/rossmann_2024_bot).
 2. Send the store number (ID) in the chat to obtain the sales prediction for the next six weeks.
 
 ### Example Output:
