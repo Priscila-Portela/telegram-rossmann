@@ -94,7 +94,7 @@ Setup Instructions:
 ![rossmann](img/app_bot.jpg)
 
 ### Note:
-* After several hours of inactivity, the bot may enter a rest mode. In this case, the response to the first message upon reactivation might take up to 2 minutes. When active, the bot returns sales forecasts immediately.
+* After several hours of inactivity, the bot may enter into sleep mode. In this case, the response to the first message upon reactivation might take up to 2 minutes. When active, the bot returns sales forecasts immediately.
   
 # 8. Additional Information
 
