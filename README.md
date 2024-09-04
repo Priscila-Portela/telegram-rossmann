@@ -74,7 +74,7 @@ The technologies and tools used were: Python (Pandas, Numpy, Seaborn, MatPlotLib
 
 * Investment Planning: Daily sales forecasts for each Rossmann store enable more secure investment planning. These results are accessible via the Telegram messaging app for convenience.
   
-# 7. Web Application
+# 7. Mobile Application
 ### Overview
 
 After developing the model, a Flask API was created and integrated into a Telegram bot. Users can interact with the bot to retrieve sales forecasts by sending the store number (ID) via chat.
